@@ -8,7 +8,7 @@ def step_impl(context):
     assert context.browser.title == "Tip calculator"
 
 
-@when(u'I submit the form with a valid total nd tip percentage')
+@when(u'I submit the form with a valid total and tip percentage')
 def step_impl(context):
     br = context.browser
     br.get('http://localhost:5000')
