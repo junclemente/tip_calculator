@@ -10,4 +10,4 @@ def before_all(context):
 
 
 def after_all(context):
-    contect.browser.quit()
+    context.browser.quit()
